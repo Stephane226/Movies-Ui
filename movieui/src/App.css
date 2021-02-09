@@ -4,5 +4,51 @@ body{
 }
 
 .header{
+height:60px;
+background-color:rgb(0, 0, 0);
+border-bottom:3px solid rgb(118, 158, 158);
+display:flex;
+justify-content: space-between;
+padding:20px;
+}
+.header .logo{
+ width:200px;
+}
+.header .logo h2{
+     color:rgb(240, 243, 44);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header .inputBar .search{
+   width:200px;
+   height:22px;
+   background-color:rgb(238, 235, 235);
+   padding:5px;
+   border-radius:20px;
+   outline:none;
+   margin-right:20px;
+   margin-top:10px
+}
 
+.iu{
+
+}
+
+.block-app{
+ 
+  width:100%;
+  height:700px;
+  background-color:rgb(30, 35, 46);
+}
+
+.footer{
+  
+  height:50px;
+  background-color:rgb(31, 135, 167);
+  text-align: center;
+  padding:10px;
+
+}
+.footer H5{
+  margin:0 auto;
+  color:white;
 }

@@ -6,8 +6,7 @@ function BlockApp(){
 
 
     return(
-        <div>
-            hello bog
+        <div className="block-app">
         </div>
     )
 }

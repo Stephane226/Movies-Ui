@@ -6,8 +6,7 @@ function Ui(){
 
 
     return(
-        <div>
-            hello ii
+        <div className="ui">
         </div>
     )
 }
