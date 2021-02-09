@@ -8,7 +8,7 @@ function Header() {
        </div>
 
        <div className="inputBar">
-           <input className="search" placeHolder="Search..."/>
+           <input className="search" placeholder="Search..."/>
        </div>
       </div>
     );

@@ -29,8 +29,25 @@ padding:20px;
    margin-top:10px
 }
 
-.iu{
-
+.ui{
+   width:200px;
+   height:290px;
+   background-color:rgb(246, 248, 250);
+   margin:10px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+img{
+  max-width:100%;
+  height:200px;
+}
+.infoFilm{ 
+  color:white;
+   display:block;
+   justify-content: space-between;
+}
+.infoFilm span{ 
+     color:black
 }
 
 .block-app{
@@ -38,6 +55,9 @@ padding:20px;
   width:100%;
   height:700px;
   background-color:rgb(30, 35, 46);
+  display:flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
 }
 
 .footer{
