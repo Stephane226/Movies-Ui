@@ -36,10 +36,10 @@ fetch(apiLink).then((result)=>
             {
            
             movies.length > 0 && movies.map((data) =>{
-                    return  <Ui backdrop_path={data.backdrop_path} />
+                    return  <Ui backdrop_path={data.backdrop_path} title={data.title} vote_average={data.vote_average} overview={data.overview}/>
                  
                   })
-                  
+                 
                 
             }
           
