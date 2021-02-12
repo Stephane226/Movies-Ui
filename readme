@@ -1,0 +1,10 @@
+MOVIES FETCHING APP WITH JAVASCRIPT
+
+My project is about creating an Ui that can fetch an API and return movies information.
+Also being able to use a user's search value in the input field to return movies related to that search value. 
+you can check my codes and any suggestion from you will be a pleasure . 
+THANK YOU ;)
+
+Technologies Used: HTML-CSS-JAVASCRIPT-REACT.JS
+API: https://www.themoviedb.org/documentation/api
+
