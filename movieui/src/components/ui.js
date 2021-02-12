@@ -1,12 +1,18 @@
-import React from 'react';
-import useState from 'react'
+import React, { useEffect, useState } from 'react';
+//import {handleSubmit} from './header'
 
 const IMG_API = "https://image.tmdb.org/t/p/w1280";
+
+
 function Ui(props){
-  
+
+     
+
     //overview
 
     return(
+
+        
         <div className="ui">
             <div className="img"> 
 
@@ -15,7 +21,7 @@ function Ui(props){
                 </div>
                 <div className="infoFilm">
                     <span>{props.title}</span>
-                    <span style={{right:0}}>{props.vote_average}</span>
+                    <span style={{marginLeft:'30px'}}>{props.vote_average}</span>
                 </div>
             <div className="overview">
 
